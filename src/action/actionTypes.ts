@@ -1,0 +1,7 @@
+export const GET_ATM_DATA = "GET_ATM_DATA";
+export const GOT_ATM_SUCCESS = "GOT_ATM_SUCCESS";
+export const GOT_ATM_ERROR = "GOT_ATM_ERROR";
+export const DISPLAY_TRANSACTION_BOX = "DISPLAY_TRANSACTION_BOX";
+export const DISPLAY_ADD_ATM_BOX = "DISPLAY_ADD_ATM_BOX";
+export const LOADING_ON = "LOADING_ON";
+export const LOADING_OFF = "LOADING_OFF";
