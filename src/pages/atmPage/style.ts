@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const AtmShowPageStyle = styled.div`
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  margin: 20px 20px;
+  .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px 20px;
+  }
   .card-group {
     display: flex;
     align-items: start;
@@ -46,19 +48,13 @@ export const AtmShowPageStyle = styled.div`
     background: rgb(191, 186, 186);
     flex: 1 1 30%;
     text-align: center;
-    height: 80vh;
+    height: 50vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
     padding: 20px;
     overflow-x: hidden;
   }
 
-  .processd {
-    overflow-y: scroll;
-    ::-webkit-scrollbar {
-      width: 0;
-    }
-  }
   .list-user {
     background: #fff;
     margin-bottom: 10px;
@@ -68,5 +64,11 @@ export const AtmShowPageStyle = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+  .sub {
+    margin: 20px 20px 40px;
+  }
+  .sub__user-name {
+    margin: 10px;
   }
 `;
